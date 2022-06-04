@@ -1,0 +1,138 @@
+html{
+    scroll-behavior: smooth;
+    }
+    
+    .masthead {
+      height: 100vh;
+      min-height: 500px;
+      background-image: url(../img/disco2.jpg);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      color: whitesmoke
+    }
+    
+    
+    /* Animação no hover dos itens*/
+    .scale:hover{
+      transform: translateY(-3px);
+    }
+    
+    .masthead1 {
+      height: 100vh;
+      min-height: 500px;
+      background-image: url(../img/thumb-seujorge2.jpg);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      color:antiquewhite;
+    }
+    
+    .masthead2 {
+      height: 100vh;
+      min-height: 500px;
+      background-image: url(../img/thumb-tim1.jpg);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      color:antiquewhite;
+    }
+    
+    .masthead3 {
+      height: 100vh;
+      min-height: 500px;
+      background-image: url(../img/thumb-elis2.jpg);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      color:antiquewhite;
+    }
+    
+    .masthead4 {
+      height: 100vh;
+      min-height: 500px;
+      background-image: url(../img/thumb-djavan1.jpg);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      color:antiquewhite;
+    }
+    
+    .masthead5 {
+      height: 100vh;
+      min-height: 500px;
+      background-image: url(../img/thumb-criolo2.jpg);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      color:antiquewhite;
+    }
+    
+    .masthead6 {
+      height: 100vh;
+      min-height: 500px;
+      background-image: url(../img/thumb-ivone1.jpg);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      color:antiquewhite;
+    }
+    
+    .masthead7 {
+      height: 100vh;
+      min-height: 500px;
+      background-image: url(../img/sabotage.jpg);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+    
+    .masthead8 {
+      height: 100vh;
+      min-height: 500px;
+      background-image: url(../img/racionais.jpeg);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+    
+    .masthead9 {
+      height: 100vh;
+      min-height: 500px;
+      background-image: url(../img/faccao.jpg);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+    
+    .bg-image{
+        background-repeat:no-repeat;
+        background-size: cover;
+        background-image: url('../img/pessoa-ouvindo-musica.jpg');
+        height: 100vh;
+    }
+    
+    .cor-fonte-rap{
+      color: white;
+      text-shadow: 2px 2px 5px black;
+    }
+    
+    @keyframes escala {
+      0%{opacity: .5;}
+      50%{transform: scale(1.2);opacity:.3 ;}
+      75%{transform: scale(1.2);opacity:.2 ;}
+      100%{opacity: 1;}
+    }
+    
+    img:hover{
+      animation: escala .5s;
+    }
+    
+    .logo{
+      width: 110px;
+      height: 100px;
+      left: 100px;
+      position: relative;
+    
+    }
