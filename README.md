@@ -36,3 +36,8 @@ Seu site tem de ter uma página de detalhes para cada item listado onde haverá 
 PÁGINA OU MODAL DE LOGIN:
 Formulário de login deverá ter uma logo, um campo de user e um campo de senha e um botão de submit.
 
+Desenvolvido em conjunto com:
+João Paulo : https://github.com/joaopaulo159
+Samuel : https://github.com/samuelCTD/Front-end-1
+
+
